@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>2C28E843485EA1629262E6976748F3DC</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-8C5ED78A4DD9B0AC6DD4B78C3BCC1758_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000000000000018</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>3836</ProcessId>
+<SecondsSinceStart>29</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-Ranch_Simulator</GameName>
+<ExecutableName>Ranch_Simulator-Win64-Shipping</ExecutableName>
+<BuildConfiguration>Shipping</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-18319896-Win64-Shipping</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-18319896+++UE4+Release-4.27</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-IN</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-18319896</BuildVersion>
+<IsUE4Release>true</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/91629/Downloads/Ranch_Simulator_v04.17.2023/Ranch.Simulator.v2023.04.17/Ranch.Simulator.v2023.04.17/Ranch_Simulator/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/91629/Downloads/Ranch_Simulator_v04.17.2023/Ranch.Simulator.v2023.04.17/Ranch.Simulator.v2023.04.17/</RootDir>
+<MachineId>79AEA2C4495113653E961ABA67187752</MachineId>
+<LoginId>79aea2c4495113653e961aba67187752</LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>2</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 2009)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8263618560</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1a73842         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1a73a0e         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d945b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d933d         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26ca7ec         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1abb3d5         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d945b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d9a5b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f4cb         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2718fd0         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</PCallStack>
+<PCallStackHash>1EEA512240167855D857FE9DC8F5C42D13C124B1</PCallStackHash>
+<Threads><Thread><CallStack>VCRUNTIME140                    0x00007ffd3caa0000 + 19db            
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 308a9cd         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 308a81e         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 30902fa         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2eee19f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2f03bec         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2d2dea7         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2d39e08         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2c15233         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2f4ff34         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 32e1960         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 32d08a6         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 328122c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 326c496         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 328a102         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2e74d33         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 7edfe1          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 7f49af          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 7f4a2a          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 7f6174          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 7fedb4          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 3c8e73e         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1696</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6824</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5820</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1396</ThreadID>
+<ThreadName>TaskGraphThreadHP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3272</ThreadID>
+<ThreadName>TaskGraphThreadHP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12800</ThreadID>
+<ThreadName>TaskGraphThreadBP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f5f1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 146142c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7720</ThreadID>
+<ThreadName>TaskGraphThreadBP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2848</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4044</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12960</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10616</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9f2d4           
+ntdll                           0x00007ffd64df0000 + 55193           
+KERNELBASE                      0x00007ffd62300000 + 44cad           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2565f90         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12496</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + fd9466          
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2348</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadSteam DefaultInstance</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2b8e04c         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2356</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13124</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1320</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1828</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5764</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1598810         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 3c983ce         
+VCRUNTIME140                    0x00007ffd3caa0000 + efc0            
+ntdll                           0x00007ffd64df0000 + a3cff           
+ntdll                           0x00007ffd64df0000 + 1e456           
+ntdll                           0x00007ffd64df0000 + a2cee           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1a73842         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1a73a0e         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d945b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d933d         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26ca7ec         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1abb3d5         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d945b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 26d9a5b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f4cb         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2718fd0         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>13024</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f4ab         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2717d72         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2719013         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3756</ThreadID>
+<ThreadName>RenderThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9f2d4           
+ntdll                           0x00007ffd64df0000 + 55193           
+KERNELBASE                      0x00007ffd62300000 + 44cad           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15aaa8a         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2719137         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7612</ThreadID>
+<ThreadName>RTHeartBeat 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 1611103         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 160ce70         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12096</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2080</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 14ac31f         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2276</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9f2d4           
+ntdll                           0x00007ffd64df0000 + 55193           
+KERNELBASE                      0x00007ffd62300000 + 44cad           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15aaa8a         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 32868c1         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9788</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2a98c55         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1236</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 145f4ab         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 2cf7260         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1776</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll                           0x00007ffd64df0000 + 9ecd4           
+KERNELBASE                      0x00007ffd62300000 + 3480e           
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15ab92b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 17203a2         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a9e3b         
+Ranch_Simulator-Win64-Shipping  0x00007ff764a80000 + 15a4231         
+KERNEL32                        0x00007ffd64bc0000 + 126ad           
+ntdll                           0x00007ffd64df0000 + 5a9f8           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4092</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>Intel(R) UHD Graphics</RHI.AdapterName>
+<RHI.UserDriverVersion>30.0.101.3111</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>30.0.101.3111</RHI.InternalDriverVersion>
+<RHI.DriverDate>6-9-2022</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<DeviceProfile.Name>WindowsNoEditor</DeviceProfile.Name>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
