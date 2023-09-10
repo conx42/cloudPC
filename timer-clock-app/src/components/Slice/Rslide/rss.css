@@ -1,0 +1,36 @@
+.outer-circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.laps{
+    height: 300px;
+    overflow: auto;
+}
+.text{
+    color: #fff;
+    font-size: 23px;
+}
+/* .minute{
+    font-size: 47px;
+}
+.sec{
+    font-size: 39px;
+}
+.msec {
+    font-size: 27px;
+} */
