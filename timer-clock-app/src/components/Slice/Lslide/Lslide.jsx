@@ -64,9 +64,9 @@ const Lslide = () => {
                         </svg>
                     </div>
 
-                    <div className="niddles" style={{'--clr2':'#ff2972'}} id='sc'><i></i></div>
+                    <div className="niddles tukk" style={{'--clr2':'#ff2972'}} id='sc'><i></i></div>
                     <div className="niddles niddle2" style={{'--clr2':'#fee800'}} id='mn'><i></i></div>
-                    <div className="niddles niddles3" style={{'--clr2':'#04fc43'}} id='hr'><i></i></div>
+                    <div className="niddles niddle3" style={{'--clr2':'#04fc43'}} id='hr'><i></i></div>
 
                     <span style={{'--i':'1'}}><b>1</b></span>
                     <span style={{'--i':'2'}}><b>2</b></span>

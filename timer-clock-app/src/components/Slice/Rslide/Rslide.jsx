@@ -16,7 +16,12 @@ const Rslide = ()=>{
             <button className='button'>Play</button>
             <button className='button'>Lap</button>
         </div>
-        <div className="laps"></div>
+        <ul className="laps">
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+        </ul>
     </div>
     </>;
 }

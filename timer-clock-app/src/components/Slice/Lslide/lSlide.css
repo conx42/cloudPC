@@ -128,24 +128,33 @@
 }
 .niddles.niddle2
 {
-    width: 170px;
-    height: 170px;
+    width: 100px;
+    height: 200px;
+    /* Yellow */
     z-index: 9;
 }
 .niddles.niddle2 i
-{
-    width: 3px;
+{   
+    /* Yellow */
+    width: 3.4px;
 }
 .niddles.niddle3
-{
-    width: 140px;
-    height: 140px;
-    z-index: 8;
-}
+ {
+    /* width: 90px; */
+    height: 135px;
+    /* green */
+    z-index: 10;
+} 
 .niddles.niddle3 i
-{
-    width: 4px; 
+ {
+    /* green */
+    width: 8px;
+} 
+.niddles.tukk{
+    width: 5px;
+    height: 0px; /* I don't want Red One */
 }
+
 #time span{
     position: absolute;
     inset: 55px;
