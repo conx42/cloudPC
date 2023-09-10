@@ -21,6 +21,33 @@ const Rslide = ()=>{
                 <span className='number'>#1</span>
                 <span className='time-stamp'>01 : 43 : 07</span>
             </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <li className='lap-item'>
+                <span className='number'>#1</span>
+                <span className='time-stamp'>01 : 43 : 07</span>
+            </li>
+            <button className='lap-clear-button'>
+                Clear All
+            </button>
         </ul>
     </div>
     </>;
