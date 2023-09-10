@@ -24,13 +24,18 @@ const Lslide = () => {
             // 60 minutes
             ss.style.strokeDashoffset = 760 - (760 * s) / 60;
             // 60 seconds
-
+            
             sec_dot.style.transform = `rotateZ(${s * 6}deg)`;
             // 360 / 60seconds = 6
             min_dot.style.transform = `rotateZ(${m * 6}deg)`;
             // 360 / 60minutes = 6
             hr_dot.style.transform = `rotateZ(${h * 30}deg)`;
             // 360 / 12hrs = 30
+
+            hr.style.transform = `rotateZ(${h * 30}deg)`;
+            mn.style.transform = `rotateZ(${m * 6}deg)`;
+            sc.style.transform = `rotateZ(${s * 6}deg)`;
+
         })
     }, []);
     return <>
@@ -60,8 +65,21 @@ const Lslide = () => {
                     </div>
 
                     <div className="niddles" style={{'--clr2':'#ff2972'}} id='sc'><i></i></div>
-                    <div className="niddles niddle2" style={{'--clr2':'#fee800'}} id='sc'><i></i></div>
-                    <div className="niddles niddles3" style={{'--clr2':'#04fc43'}} id='sc'><i></i></div>
+                    <div className="niddles niddle2" style={{'--clr2':'#fee800'}} id='mn'><i></i></div>
+                    <div className="niddles niddles3" style={{'--clr2':'#04fc43'}} id='hr'><i></i></div>
+
+                    <span style={{'--i':'1'}}><b>1</b></span>
+                    <span style={{'--i':'2'}}><b>2</b></span>
+                    <span style={{'--i':'3'}}><b>3</b></span>
+                    <span style={{'--i':'4'}}><b>4</b></span>
+                    <span style={{'--i':'5'}}><b>5</b></span>
+                    <span style={{'--i':'6'}}><b>6</b></span>
+                    <span style={{'--i':'7'}}><b>7</b></span>
+                    <span style={{'--i':'8'}}><b>8</b></span>
+                    <span style={{'--i':'9'}}><b>9</b></span>
+                    <span style={{'--i':'10'}}><b>10</b></span>
+                    <span style={{'--i':'11'}}><b>11</b></span>
+                    <span style={{'--i':'12'}}><b>12</b></span>
 
                 </div>
             </div>
