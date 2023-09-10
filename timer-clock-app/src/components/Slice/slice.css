@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+.aApp{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.lSlide{
+    background-color: blue;
+    flex: 1;
+    height: 100vh;
+}
+.rSlide{
+    background-color: blueviolet;
+    flex: 1;
+    height: 100vh;
+}
