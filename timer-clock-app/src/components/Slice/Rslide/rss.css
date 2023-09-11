@@ -1,6 +1,23 @@
 /* *{
     outline: rgb(21, 255, 0);
 } */
+/* Custom Scroll Bar */
+/* html::-webkit-scrollbar {
+}
+html::-webkit-scrollbar-thumb {
+}
+.laps::-webkit-scrollbar{
+    display: none;
+} */
+.laps::-webkit-scrollbar{
+    width: 0.5rem;
+    background: transparent;
+    color: yellowgreen;
+    display: block;
+    }
+  /* .laps::-webkit-scrollbar{
+    display: none;
+    } */
 .outer-circle{
     width: 230px;
     height: 230px;
@@ -92,9 +109,7 @@
     position: relative;
     margin-top: 30px;
 }
-.laps::-webkit-scrollbar{
-display: none;
-}
+
 .lap-clear-button{
   display: block;
   position: fixed;

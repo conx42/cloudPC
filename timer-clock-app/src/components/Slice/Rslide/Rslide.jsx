@@ -8,6 +8,7 @@ const Rslide = () => {
         const second = document.getElementsByClassName("sec")[0];
         const centiSecond = document.getElementsByClassName("msec")[0];
         const minute = document.getElementsByClassName("minute")[0];
+        const laps = document.getElementsByClassName("laps")[0];
 
         let isPlay = true;
         let secCounter = 0;
@@ -43,7 +44,7 @@ const Rslide = () => {
                     centiSecond.innerHTML = `&nbsp;${++centiCounter}`;
                 }, 10)
                 min = setInterval(() => {
-                    minute.innerHTML = `${++minCounter} :;`;
+                    minute.innerHTML = `${++minCounter} :`;
                 }, 60*1000)
                 isPlay = false;
                 isReset = false;
@@ -74,9 +75,28 @@ const Rslide = () => {
             centiSecond.innerHTML = '0';
             minute.innerHTML = '0 :';
         }
+let coutt=0;
+        function lap(){
+            ++coutt;
+            console.log("LAPASSSSSS");
+            console.log("COUNT:::::"+(coutt));
+            const li = document.createElement("li");
+            const number = document.createElement("span");
+            const timeStamp = document.createElement("span");
+
+            li.setAttribute("class", "lap-item");
+            number.setAttribute('class', "number");
+            timeStamp.setAttribute('class', 'time-stamp');
+
+            timeStamp.innerHTML=`${minCounter}&nbsp;:&nbsp;${secCounter}&nbsp;:&nbsp;${centiCounter}`;
+
+            li.append(number, timeStamp);
+            laps.append(li);
+        }
 
         playButton.addEventListener("click", play);
         resetButton.addEventListener("click", reset);
+        lapButton.addEventListener("click", lap);
     }, [])
     return <>
         <div className="Container">
@@ -95,34 +115,6 @@ const Rslide = () => {
                 <button className='button lap display-none'>Lap</button>
             </div>
             <ul className="laps">
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
-                <li className='lap-item'>
-                    <span className='number'>#1</span>
-                    <span className='time-stamp'>01 : 43 : 07</span>
-                </li>
                 <button className='lap-clear-button'>
                     Clear All
                 </button>
