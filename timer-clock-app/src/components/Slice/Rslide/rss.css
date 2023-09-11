@@ -129,3 +129,24 @@ html::-webkit-scrollbar-thumb {
 {
     visibility: hidden;
 }
+button:hover{
+    cursor: pointer;
+}
+.animation-bg{
+    /* background: linear-gradient(-45deg, #00ff80, rgb(255, 203, 90), rgb(0, 241, 141), rgb(43, 198, 226), #ff00b3,#23a6d5/*Main, #23d5ab); */
+    /* background: linear-gradient(-45deg, #00ff80, rgb(255, 203, 90), rgb(0, 241, 141), rgb(43, 198, 226), #9900ff,#23a6d5, #23d5ab); */
+    background: linear-gradient(-45deg, #00ff80, rgb(255, 203, 90), rgb(0, 241, 141), rgb(43, 198, 226),#23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
