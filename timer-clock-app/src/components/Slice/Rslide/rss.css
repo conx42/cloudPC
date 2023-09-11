@@ -1,3 +1,6 @@
+/* *{
+    outline: rgb(21, 255, 0);
+} */
 .outer-circle{
     width: 230px;
     height: 230px;
@@ -109,5 +112,5 @@ display: none;
 }
 .display-none
 {
-    display: none;
+    visibility: hidden;
 }
